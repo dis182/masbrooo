@@ -1,0 +1,33 @@
+/* CSS Document */
+
+html, body, * {margin:0; padding:0;}
+h1 {font-size:18px;}
+.clear {clear:both; margin:0; padding:0; line-height:none;}
+#header {width:100%; height:56px; background-color:#ec2027;}
+.logo {float:left; margin-left:10px; width:193px; height:56px;}
+.logo img {width:100%; height:100%;}
+.menu {float:right; width:57px; height:56px; background:url(img/menu_header.png);} 
+a {text-decoration:none;}
+
+#area {width:960px; margin:0 auto;}
+#area img {width:100%; margin:10px 0;}
+
+.listmagz {width:120px; margin:20px 20px 30px 20px; float:left;}
+.listmagz .imgwrapper {width:120px; height:150px; overflow:hidden; margin-bottom:10px;}
+.listmagz .imgwrapper img {width:100%; margin-bottom:20px;}
+.listmagz p {text-align:center; text-transform:uppercase; color:#000; font-family: Verdana, Geneva, sans-serif; font-weight:bold;}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* For general iPad layouts */
+  #area {width: 768px;}
+  .logo {width:136px; height:54px; margin-top:1px;}
+}
+/* Note: Design for a width of 290px */
+@media only screen and (max-width: 767px) {
+	#area { width:320px;}
+	.logo {width:116px; height:46px; margin-top:5px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#area { width:480px;}
+	.logo {width:116px; height:46px; margin-top:5px;}
+}
