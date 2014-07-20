@@ -13,7 +13,7 @@ a {text-decoration:none;}
 #area img {width:100%; margin:10px 0;}
 
 .listmagz {width:120px; margin:20px 20px 30px 20px; float:left;}
-.listmagz .imgwrapper {width:120px; height:150px; overflow:hidden; margin-bottom:10px;}
+.listmagz .imgwrapper {width:120px; height:150px; overflow:hidden; margin-bottom:10px; background:url(img/loading.gif) no-repeat center center;}
 .listmagz .imgwrapper img {width:100%; margin-bottom:20px;}
 .listmagz p {text-align:center; text-transform:uppercase; color:#000; font-family: Verdana, Geneva, sans-serif; font-weight:bold;}
 
